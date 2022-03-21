@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+p{
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.nav-text{
+    font-family: 'Roboto', sans-serif !important;
+    
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid rgba(51,203,240,0);
+    transition: color .4s,border-color .4s;
+    color: #193a8c;
+    font-weight: 600 !important;
+    /* text-align: right; */
+    text-decoration: none;
+}
+.link-search{
+    color: #193a8c;
+    font-weight: 500;
+    cursor:pointer;
+}
+.sm-headings{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.25em;
+    font-weight: 500;
+    color: #193a8c;
+}
+.main-heading{
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+    color: #193a8c;
+    font-size: 36px;
+    line-height: 1.25em;
+    font-weight: 600;
+}
+
+
+.mt-40{
+    margin-top: 40px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+/* text field  */
+
+.input-card {
+    background-color: white !important;
+    /* border-bottom: 1px solid transparent; */
+    border-radius: 10px !important;
+    padding-left: 0px !important;
+  }
+  .input-card:before {
+    /* border-bottom: none !important; */
+  }
+  .input-card:after {
+    /* border-bottom: none !important; */
+  }
+  .fieldsAccountDetails .input-card{
+    border-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  #filled-basic-card {
+      padding-top: 10px;
+  }
+
+  /* button */
+  .basic-btn{
+    position: relative;
+    z-index: 2;
+
+    height: 30px;
+    margin-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    flex-direction: row;
+ 
+    justify-content: center;
+  
+    align-items: center;
+    border: 1px solid #01b673;
+    border-radius: 6px;
+    background-color: #00cf83;
+    -webkit-transition: border-color .3s,color .3s,background-color .3s,-webkit-transform .3s ease-out;
+    transition: border-color .3s,color .3s,background-color .3s,transform .3s ease-out,-webkit-transform .3s ease-out;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+  }
